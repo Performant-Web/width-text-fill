@@ -1,6 +1,6 @@
 import { ReactNode, useEffect, useState, useRef } from 'react'
 
-export default function Test({ children, maxLines }: { children: ReactNode, maxLines: number }) {
+export default function WidthTextFill({ children, maxLines }: { children: ReactNode, maxLines: number }) {
 
   const [fontSize, setFontSize] = useState(0)
   const [isIncreasing, setIsIncreasing] = useState(false)
